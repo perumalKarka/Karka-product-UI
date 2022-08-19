@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <title>Karka-Products</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
-    <meta content="Coderthemes" name="author" />
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <meta charset="utf-8" />
+        <title>Karka-Products</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
 
 
-    <!-- App css -->
-    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
-    <!-- third party css -->
-    <link href="assets/css/login.css" rel="stylesheet" type="text/css" />
+        <!-- App css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+        <!-- third party css -->
+        <link href="assets/css/login.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body class="auth-fluid-pages pb-0">
-
     <div class="auth-fluid auth-fluid-img">
         <div class="auth-fluid-form-box auth-form-box-size">
             <div class="align-items-center d-flex h-100">
@@ -31,30 +28,23 @@
                         </a>
                     </div>
                      <!-- title-->
-                     <h4 class="login-font">Signup</h4>
+                     <h4 class="login-font">Forgot your password</h4>
                      <hr/>
 
-                     <form action="#" class="mt-4">
-                        <div class="form-group mb-2">
-                            <label for="username">User Name</label>
-                            <input class="form-control" type="text" id="username" required="" placeholder="Enter your username">
-                        </div>
-                        <div class="form-group mb-2">
-                            <label for="useremail">Email</label>
-                            <input class="form-control" type="email" id="useremail" required="" placeholder="Enter your email">
-                        </div>
-                        <div class="form-group mb-2">
-                            <label for="password">Password</label>
-                            <input class="form-control" type="password" required="" id="password" placeholder="Enter your password">
-                        </div>
-                        <div class="form-group mb-3 text-center btn-style">
-                            <button class="btn btn-block" type="submit"> Signup </button>
-                        </div>
-                        <!-- social-->
-                        <div class="issue-login">
-                            <p class="text-muted">Already have account? <a href="login.php">Login</a></p> 
-                        </div>
-                    </form>
+                     <form action="#" class="mt-3">
+                            <div class="form-group mb-2">
+                                <h5 class="pb-2">Enter your email address below and well get you back on track</h5>
+                                <label for="Email">Email</label>
+                                <input class="form-control" type="email" id="forgot-password" required="" placeholder="your@gmail.com">
+                            </div>
+                            <div class="form-group mb-3 mt-3 text-center btn-style">
+                                <button class="btn btn-block" type="submit"> Send </button>
+                            </div>
+                            <!-- social-->
+                            <div class="issue-login">
+                                <a href="login.php" class="text-muted">Back to login</a>
+                            </div>
+                        </form>
                 </div>   
             </div>
         </div>

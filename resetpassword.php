@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <title>Karka-Products</title>
@@ -17,9 +16,7 @@
     <!-- third party css -->
     <link href="assets/css/login.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body class="auth-fluid-pages pb-0">
-
     <div class="auth-fluid auth-fluid-img">
         <div class="auth-fluid-form-box auth-form-box-size">
             <div class="align-items-center d-flex h-100">
@@ -31,28 +28,25 @@
                         </a>
                     </div>
                      <!-- title-->
-                     <h4 class="login-font">Signup</h4>
+                     <h4 class="login-font">Reset Password</h4>
                      <hr/>
 
-                     <form action="#" class="mt-4">
+                     <form action="#" class="mt-3">
                         <div class="form-group mb-2">
-                            <label for="username">User Name</label>
-                            <input class="form-control" type="text" id="username" required="" placeholder="Enter your username">
+                            <label for="username">Enter new password</label>
+                            <input class="form-control" type="text" id="username" required="" placeholder="Enter new password">
                         </div>
                         <div class="form-group mb-2">
-                            <label for="useremail">Email</label>
-                            <input class="form-control" type="email" id="useremail" required="" placeholder="Enter your email">
+                            <label for="password">Recenter your paassword</label>
+                            <input class="form-control" type="password" required="" id="password" placeholder="Enetr Recenter your paassword">
                         </div>
-                        <div class="form-group mb-2">
-                            <label for="password">Password</label>
-                            <input class="form-control" type="password" required="" id="password" placeholder="Enter your password">
-                        </div>
-                        <div class="form-group mb-3 text-center btn-style">
-                            <button class="btn btn-block" type="submit"> Signup </button>
+                        <div class="form-group mb-3 mt-3 text-center btn-style">
+                            <button class="btn btn-block" type="submit"> Reset Password </button>
                         </div>
                         <!-- social-->
                         <div class="issue-login">
-                            <p class="text-muted">Already have account? <a href="login.php">Login</a></p> 
+                            <p class="text-muted">Don't have an account? <a href="login.php">Login</a></p>
+                            
                         </div>
                     </form>
                 </div>   

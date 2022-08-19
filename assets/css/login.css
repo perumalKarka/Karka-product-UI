@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.reset-padding{
+    padding: 0px;
+}
+.reset-margin{
+    margin: 0px;
+}
+
+.auth-fluid-height{
+    padding-bottom: 0px !important;
+}
+.auth-fluid-img{
+    background: none;
+}
+.carousel-relative h4,p{
+    text-align: initial;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+h5{
+    font: normal normal 200 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.issue-login a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    color: #3f589e !important;
+}
+.login-font{
+    margin-top: 89px;
+    color: #3f589e;
+    font-weight: 600;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 24px;
+}
+.forgot{
+    font: normal normal 200 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #3F589E;
+    opacity: 1;
+}
+form label{
+    color: #3f589e;
+    font: normal normal normal 20px/30px Poppins;;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.auth-form-box-size{
+    max-width: 50% !important;
+}
+
+.card-body-size{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.btn-style{
+    background: #3F589E 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}
+.btn-style button{
+    font: normal normal normal 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.btn-style button:hover{
+    color: #FFFFFF;
+}
+.issue-login{
+    font: normal normal 200 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #3F589E;
+    opacity: 1;
+}
+.auth-bg-img{
+    background-image: url(../images/userscreen-bg.png) !important;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.auth-fluid-img-top{
+    padding: 0px 0px!important;
+}
+.carousel-width{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.carousel-relative{
+    padding-bottom: 30px;
+    position: relative;
+    top: 65%;
+    left: 2%;
+    backdrop-filter: blur(30px);
+    opacity: 1;
+    -webkit-backdrop-filter: blur(30px);
+}
+.issue-login{
+    text-align: center;
+}
+
+.carousel-indicators-btn {
+    justify-content: end;
+}
+
+.carousel-indicators-btn button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 5px !important;
+    background-color: #FFF !important;
+    opacity: 1 !important;
+}
+.carousel-indicators-btn button.active{
+        width: 20px !important;
+        height: 10px !important;
+        margin: 10px 6px !important;
+        background-color: #3EBDCC !important;
+        border-radius: 5px !important;
+        border: none;
+}
