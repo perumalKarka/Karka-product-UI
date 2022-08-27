@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: Roboto !important;
 }
@@ -30,6 +34,7 @@ body{
 }
 .left-aside-width{
     background: #3F589E !important;
+    position: absolute !important;
 }
 /* aside css */
 .mt-5{
@@ -78,7 +83,17 @@ form label{
 aside ul li .active{
     color: #7ABAFB !important;
 } 
+/* footer css */
+.footer-overall{
+    padding: 10px !important;
+}
+.footer p{
+    float: right;
+    margin-bottom: 0 !important;
+}
 
+
+/* body css page */
 .btn-bg-color{
     background-color: #243871;
     padding: 10px 30px;
