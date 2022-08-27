@@ -55,7 +55,7 @@
                                     </div>
                                     <div class="col-md-2">
                                         <div>
-                                           <button type="button" class="btn mt-4 add-category-btn">Add</button>
+                                           <button type="button" class="btn mt-4 add-category-btn btn-bg-color">Add</button>
                                         </div>
                                     </div>
                                 </div> 
