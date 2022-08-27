@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: Roboto !important;
 }
@@ -29,12 +33,11 @@ body{
     color: #FFF !important;
 }
 .left-aside-width{
-    position: absolute !important; 
-    /* background: #243871; */
-    background: #3F589E;
+    background: #3F589E !important;
+    position: absolute !important;
 }
 /* aside css */
-aside .mt-5{
+.mt-5{
     margin-top: 4.4rem !important;
 } 
 .model-footer-view{
@@ -80,7 +83,17 @@ form label{
 aside ul li .active{
     color: #7ABAFB !important;
 } 
+/* footer css */
+.footer-overall{
+    padding: 10px !important;
+}
+.footer p{
+    float: right;
+    margin-bottom: 0 !important;
+}
 
+
+/* body css page */
 .btn-bg-color{
     background-color: #243871;
     padding: 10px 30px;
