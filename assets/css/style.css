@@ -29,8 +29,6 @@ body{
     color: #FFF !important;
 }
 .left-aside-width{
-    width: 20%;
-    float: left;
     position: absolute !important; 
     /* background: #243871; */
     background: #3F589E;

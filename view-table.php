@@ -21,31 +21,29 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-    <?php include 'includes/nav.php'; ?>
-    <?php include 'includes/aside.php'; ?>
-
-    <div class="content-page content-page-overview">
-        <div class="container-fluid container-fluid-width">
-            <div class="row">
-                <div class="col-12">
-                    <div class="page-title-box">
-                        <div class="page-title-right topic-path">
-                            <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Karka</a></li>
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Topic</a></li>
-                                <li class="breadcrumb-item active">Topic Table</li>
-                            </ol>
+    <div class="wrapper">
+        <?php include 'includes/nav.php'; ?>
+        <?php include 'includes/aside.php'; ?>
+        <div class="content-page">
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right topic-path">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Karka</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Topic</a></li>
+                                        <li class="breadcrumb-item active">Topic Table</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title topic-head">Topic Table</h4>
+                            </div>
                         </div>
-                        <h4 class="page-title topic-head">Topic Table</h4>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <!-- <div class="card">
-                        <div class="card-body"> -->
-                        <div class="table-responsive-sm">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="table-responsive-sm">
                                 <table class="table table-striped table-centered mb-0">
                                     <thead>
                                         <tr>
@@ -113,13 +111,13 @@
                                     </tbody>
                                 </table>
                             </div>
-                        <!-- </div> 
-                    </div> -->
+                        </div>
+                    </div>                 
                 </div>
-            </div>                 
+            </div>
         </div>
+        <?php include 'includes/footer.php' ?>
     </div>
-
 </body>
      <!-- App js -->
      <script src="assets/js/app.min.js"></script>
