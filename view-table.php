@@ -25,7 +25,7 @@
         <?php include 'includes/nav.php'; ?>
         <?php include 'includes/aside.php'; ?>
         <div class="content-page">
-            <div class="content">
+            <div class="content pt-2">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
