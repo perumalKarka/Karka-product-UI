@@ -44,25 +44,36 @@ body{
 aside ul li .active{
     color: #632a7d !important;
 } 
-/* footer css */
-.footer-overall{
-    padding: 10px !important;
-}
-.footer p{
-    float: right;
-    margin-bottom: 0 !important;
-}
 
-
-/* body css page */
 .btn-bg-color{
-    background-color: #243871;
+    background-color: #632a7d;
     padding: 10px 30px;
     color: #FFF;
     font-size: 18px;
 }
+.model-footer-view{
+    justify-content: center !important;
+}
 .btn-bg-color:hover{
     color: #FFF !important;
+}
+.topic-head{
+    color: #632a7d !important;
+    font-size: 25px !important;
+}
+form label{
+    color: #632a7d;
+    font-size: 18px;
+    font-weight: 500 !important;
+}
+ .topic-path ol li a{
+    color: #632a7d;
+    font-size: 15px;
+    font-weight: 700;
+}
+.topic-path .active{
+    font-size: 15px;
+    font-weight: 700;
 }
 table th{
     color: #243871;
