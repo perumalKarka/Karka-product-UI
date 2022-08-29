@@ -22,50 +22,12 @@ body{
     color: #FFF;
     margin: 25% 30%;
 }
-.nav-user-bg-color{
-    background-color: #4EBDE4 !important;
-}
-.nav-user-bg-color span{
-    color: #FFF !important;
-}
-.left-aside-width{
-    width: 20%;
-    float: left;
-    position: absolute !important; 
-    /* background: #243871; */
-    background: #3F589E;
-}
 /* aside css */
 aside .mt-5{
     margin-top: 4.4rem !important;
 } 
-.model-footer-view{
-    justify-content: center !important;
-}
-.content-page-overview{
-    padding:  5px 35px !important;
-}
 .page-item.active.page-link{
     background-color: #39afd1 !important;
-}
-
-.topic-head{
-    color: #3f589e !important;
-    font-size: 25px !important;
-}
-form label{
-    color: #3f589e;
-    font-size: 18px;
-    font-weight: 500 !important;
-}
- .topic-path ol li a{
-    color: #3f589e;
-    font-size: 15px;
-    font-weight: 700;
-}
-.topic-path .active{
-    font-size: 15px;
-    font-weight: 700;
 }
 .aside-bg-color li a{
     color: #FFF !important;
@@ -82,15 +44,36 @@ form label{
 aside ul li .active{
     color: #7ABAFB !important;
 } 
-
+/* body css */
 .btn-bg-color{
-    background-color: #243871;
+    background-color: #632a7d;
     padding: 10px 30px;
     color: #FFF;
     font-size: 18px;
 }
+.model-footer-view{
+    justify-content: center !important;
+}
 .btn-bg-color:hover{
     color: #FFF !important;
+}
+.topic-head{
+    color: #632a7d !important;
+    font-size: 25px !important;
+}
+form label{
+    color: #632a7d;
+    font-size: 18px;
+    font-weight: 500 !important;
+}
+ .topic-path ol li a{
+    color: #632a7d;
+    font-size: 15px;
+    font-weight: 700;
+}
+.topic-path .active{
+    font-size: 15px;
+    font-weight: 700;
 }
 table th{
     color: #243871;
