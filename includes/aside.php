@@ -1,5 +1,5 @@
 <!-- ========== Left Sidebar Start ========== -->
-<aside class="left-side-menu mt-5 left-aside-width">
+<aside class="left-side-menu mt-5 left-aside-bg">
     <div class="slimscroll-menu slimscroll-height-size" id="left-side-menu-container">
         <ul class="metismenu side-nav side-nav-light aside-bg-color">
             <li class="side-nav-item">
