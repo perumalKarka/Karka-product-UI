@@ -41,6 +41,7 @@ aside ul li .active{
     color: #632a7d !important;
 } 
 
+/* body css */
 .btn-bg-color{
     background-color: #632a7d;
     padding: 10px 30px;
@@ -83,22 +84,4 @@ tbody tr td{
     padding: 0px 40px;
     color: #FFF;
     font-size: 22px;
-}
-.topic-head{
-    color: #3f589e !important;
-    font-size: 25px !important;
-}
-form label{
-    color: #3f589e;
-    font-size: 18px;
-    font-weight: 500 !important;
-}
-.topic-path ol li a{
-    color: #3f589e;
-    font-size: 15px;
-    font-weight: 700;
-}
-.topic-path .active{
-    font-size: 15px;
-    font-weight: 700;
 }
