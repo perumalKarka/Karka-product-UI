@@ -34,12 +34,12 @@
                             <div class="page-title-box">
                                 <div class="page-title-right topic-path">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Karka</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Topic</a></li>
-                                        <li class="breadcrumb-item active">Add Topic</li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Admin</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Topics library</a></li>
+                                        <li class="breadcrumb-item active">New topic</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title topic-head">Libray topic</h4>
+                                <h4 class="page-title topic-head">New topic</h4>
                             </div>
                         </div>
                     </div>
@@ -76,6 +76,10 @@
                                                 <div id="div_editor1"></div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body"> 
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group mb-3">
@@ -98,20 +102,16 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group mb-3">
-                                                        <label for="example-palaceholder">Link</label>
-                                                        <input type="text" id="example-palaceholder" class="form-control" placeholder="Enter Link">
-                                                </div>
-                                            </div>
-                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" id="add-files">
+                                    <div class="card-body"> 
                                         <div class="row">
                                             <div class="col-12">
                                                 <label for="example-select">File upload</label>
                                                     <div class="dropzone">
                                                     <div class="fallback">
-                                                        <input name="file" type="file" multiple />
+                                                        <input name="file" type="file" />
                                                     </div>
                                                     <div class="dz-message needsclick">
                                                         <i class="h1 text-muted dripicons-cloud-upload"></i>
@@ -134,41 +134,63 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>   
+                                </div>
+                                <div class="card" id="add-link">
+                                    <div class="card-body"> 
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group mb-3">
+                                                    <label for="example-palaceholder">Link</label>
+                                                    <input type="text" id="example-palaceholder" class="form-control" placeholder="Enter link">
+                                                </div>
+                                            </div>                                    
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group mb-3">
+                                                    <label for="example-textarea">Purpose of link</label>
+                                                    <textarea class="form-control" id="example-textarea" rows="5"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    </div>
+                                </div>  
                             </div>
                         </div>
                     </form> 
                     <div class="modal-footer model-footer-view">
-                            <button type="button" class="btn my-2 btn-bg-color">Add</button>
+                        <button type="button" class="btn my-2 btn-bg-color">Add</button>
                     </div>
                 </div>
             </div>
         </div>
-        <?php include 'includes/footer.php'; ?>
-
-        <!-- file preview template -->
-        <div class="d-none" id="uploadPreviewTemplate">
-            <div class="card mt-1 mb-0 shadow-none border">
-                <div class="p-2">
-                    <div class="row align-items-center">
-                        <div class="col-auto">
-                            <img data-dz-thumbnail class="avatar-sm rounded bg-light" alt="">
-                        </div>
-                        <div class="col pl-0">
-                            <a href="javascript:void(0);" class="text-muted font-weight-bold" data-dz-name></a>
-                            <p class="mb-0" data-dz-size></p>
-                        </div>
-                        <div class="col-auto">
-                            <!-- Button -->
-                            <a href="" class="btn btn-link btn-lg text-muted" data-dz-remove>
-                                <i class="dripicons-cross"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include 'includes/footer.php'; ?> 
     </div>
+    <!-- file preview template -->
+            <div class="d-none" id="uploadPreviewTemplate">
+                <div class="card mt-1 mb-0 shadow-none border">
+                    <div class="p-2">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <img data-dz-thumbnail class="avatar-sm rounded bg-light" alt="">
+                            </div>
+                            <div class="col pl-0">
+                                <a href="javascript:void(0);" class="text-muted font-weight-bold" data-dz-name></a>
+                                <p class="mb-0" data-dz-size></p>
+                            </div>
+                            <div class="col-auto">
+                                <!-- Button -->
+                                <a href="" class="btn btn-link btn-lg text-muted" data-dz-remove>
+                                    <i class="dripicons-cross"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
 </body>
      <!-- App js -->
      <script src="assets/js/app.min.js"></script>
