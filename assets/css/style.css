@@ -49,25 +49,6 @@ body{
 .page-item.active.page-link{
     background-color: #39afd1 !important;
 }
-
-.topic-head{
-    color: #3f589e !important;
-    font-size: 25px !important;
-}
-form label{
-    color: #3f589e;
-    font-size: 18px;
-    font-weight: 500 !important;
-}
- .topic-path ol li a{
-    color: #3f589e;
-    font-size: 15px;
-    font-weight: 700;
-}
-.topic-path .active{
-    font-size: 15px;
-    font-weight: 700;
-}
 .aside-bg-color li a{
     color: #FFF !important;
     font-size: 18px !important;
@@ -103,12 +84,27 @@ aside ul li .active{
 .btn-bg-color:hover{
     color: #FFF !important;
 }
-table th{
-    color: #243871;
-    font-size: 15px;
+.topic-head{
+    color: #3f589e !important;
+    font-size: 25px !important;
 }
-tbody tr td{
-    font-weight: 800 !important;
+form label{
+    color: #3f589e;
+    font-size: 18px;
+    font-weight: 500 !important;
+}
+ .topic-path ol li a{
+    color: #3f589e;
+    font-size: 15px;
+    font-weight: 700;
+}
+.topic-path .active{
+    font-size: 15px;
+    font-weight: 700;
+}
+table th{
+    color: #632a7d;
+    font-size: 15px;
 }
 .add-category-btn{
     background-color: #3F589E;
