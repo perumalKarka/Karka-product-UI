@@ -50,6 +50,7 @@
                                             <th>Title</th>
                                             <th>Tags content</th>
                                             <th>Text content</th>
+                                            <th>Category</th>
                                             <th>File</th>
                                             <th>Video and Web link</th>
                                             <th>Action</th>
@@ -62,6 +63,7 @@
                                             </td>
                                             <td>AC336 508 2157</td>
                                             <td>July 24, 1950</td>
+                                            <td>HTML</td>
                                             <td>AC336 508 2157</td>
                                             <td>July 24, 1950</td>
                                             <td class="table-action">
@@ -75,6 +77,7 @@
                                             </td>
                                             <td>SB646 473 2057</td>
                                             <td>January 25, 1959</td>
+                                            <td>Css</td>
                                             <td>AC336 508 2157</td>
                                             <td>July 24, 1950</td>
                                             <td class="table-action">
@@ -88,6 +91,7 @@
                                             </td>
                                             <td>DL281 308 0793</td>
                                             <td>September 1, 1939</td>
+                                            <td>Js</td>
                                             <td>AC336 508 2157</td>
                                             <td>July 24, 1950</td>
                                             <td class="table-action">
@@ -101,6 +105,7 @@
                                             </td>
                                             <td>CA269 714 6825</td>
                                             <td>February 5, 1994</td>
+                                            <td>React</td>
                                             <td>AC336 508 2157</td>
                                             <td>July 24, 1950</td>
                                             <td class="table-action">
