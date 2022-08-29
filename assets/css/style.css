@@ -7,6 +7,11 @@ body{
 }
 .navbar-bg-color{
     background: #632a7d !important;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 .right-panel i{
     color: #FFF;
@@ -27,7 +32,7 @@ body{
 } 
 .left-aside-bg{
     background: #f1f3fa !important;
-    position: absolute !important;
+    position: fixed !important;
 }
 .aside-bg-color li a{
     color: #6c757d !important;
