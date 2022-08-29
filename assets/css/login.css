@@ -8,7 +8,9 @@
 .reset-margin{
     margin: 0px;
 }
-
+body{
+    overflow: hidden;
+}
 .auth-fluid-height{
     padding-bottom: 0px !important;
 }
@@ -33,38 +35,36 @@ h5{
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
-    color: #3f589e !important;
+    color: #642b7e !important;
 }
 .login-font{
-    margin-top: 89px;
-    color: #3f589e;
+    margin-top: 50px;
+    color: #642b7e;
     font-weight: 600;
     font-family: Poppins;
     font-style: normal;
-    font-size: 24px;
+    font-size: 30px;
 }
 .forgot{
     font: normal normal 200 18px/27px Poppins;
     letter-spacing: 0px;
-    color: #3F589E;
+    color: #642b7e;
     opacity: 1;
 }
 form label{
-    color: #3f589e;
+    color: #642b7e;
     font: normal normal normal 20px/30px Poppins;;
     letter-spacing: 0px;
     opacity: 1;
 }
 .auth-form-box-size{
     max-width: 50% !important;
+    padding: 3rem 6rem !important;
+
 }
 
-.card-body-size{
-    max-width: 70%;
-    margin: 0 auto;
-}
 .btn-style{
-    background: #3F589E 0% 0% no-repeat padding-box;
+    background: #642b7e 0% 0% no-repeat padding-box;
     border-radius: 10px;
 }
 .btn-style button{
@@ -83,7 +83,7 @@ form label{
     opacity: 1;
 }
 .auth-bg-img{
-    background-image: url(../images/userscreen-bg.png) !important;
+    background-image: url(../images/userscreen-bg.jpg) !important;
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@ form label{
         width: 20px !important;
         height: 10px !important;
         margin: 10px 6px !important;
-        background-color: #3EBDCC !important;
+        background-color: #642b7e !important;
         border-radius: 5px !important;
         border: none;
 }

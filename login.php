@@ -8,8 +8,12 @@
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/karka-logo.png">
 
+    <!-- font-family link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <!-- App css -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
@@ -23,11 +27,11 @@
     <div class="auth-fluid auth-fluid-img">
         <div class="auth-fluid-form-box auth-form-box-size">
             <div class="align-items-center d-flex h-100">
-                <div class="card-body card-body-size">
+                <div class="auth-body card-body">
                     <!-- logo -->
-                    <div class="auth-brand text-center text-lg-left">
+                    <div class="text-center text-lg-left">
                         <a href="index.php">
-                            <span><img src="assets/images/gsmmaster-logo-blue.png" alt="" height="50"></span>
+                            <span><img src="assets/images/karka-logo.png" alt="" height="90"></span>
                         </a>
                     </div>
                      <!-- title-->
@@ -64,7 +68,7 @@
                     </div>
                     <div class="carousel-item">
                         <h4>Front End Developer</h4>
-                        <p>HTML,CSS,JS,REACT,NOTEJS</p>
+                        <p>HTML,CSS,JS,REACT</p>
                     </div>
                     <div class="carousel-item">
                         <h4>Back End Developer</h4>
