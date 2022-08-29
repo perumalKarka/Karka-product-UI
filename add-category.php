@@ -21,97 +21,99 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-    <?php include 'includes/nav.php'; ?>
     <div class="wrapper">
-    <?php include 'includes/aside.php'; ?>
-    <div class="content-page content-page-overview">
-        <div class="container-fluid">       
-            <div class="row">
-                <div class="col-12">
-                    <div class="page-title-box">
-                        <div class="page-title-right topic-path">
-                            <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Karka</a></li>
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Topic</a></li>
-                                <li class="breadcrumb-item active">Add Category</li>
-                            </ol>
+        <?php include 'includes/nav.php'; ?>
+        <?php include 'includes/aside.php'; ?>
+        <div class="content-page">
+            <div class="content pt-5">
+                <div class="container-fluid">       
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right topic-path">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Karka</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Topic</a></li>
+                                        <li class="breadcrumb-item active">Add Category</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title topic-head">Category list</h4>
+                            </div>
                         </div>
-                        <h4 class="page-title topic-head">Category list</h4>
                     </div>
+                    <form action="/" method="post">  
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">        
+                                        <div class="row">
+                                            <div class="col-md-10">
+                                                <div class="form-group mb-3">
+                                                    <label for="example-palaceholder">Category</label>
+                                                    <input type="text" id="example-palaceholder" class="form-control" placeholder="Enter new category">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div>
+                                                <button type="button" class="btn mt-4 add-category-btn btn-bg-color">Add</button>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </form> 
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <!-- <div class="card">
+                                <div class="card-body"> -->
+                                <div class="table-responsive-sm">
+                                        <table class="table table-striped table-centered mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th>S.No</th>
+                                                    <th>Category</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>HTML</td>
+                                                        <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>CSS</td>
+                                                    <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>javascript</td>
+                                                    <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                <!-- </div> 
+                            </div> -->
+                        </div>
+                    </div>  
                 </div>
             </div>
-            <form action="/" method="post">  
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card">
-                            <div class="card-body">        
-                                <div class="row">
-                                    <div class="col-md-10">
-                                        <div class="form-group mb-3">
-                                            <label for="example-palaceholder">Category</label>
-                                            <input type="text" id="example-palaceholder" class="form-control" placeholder="Enter new category">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <div>
-                                           <button type="button" class="btn mt-4 add-category-btn btn-bg-color">Add</button>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>   
-                    </div>
-                </div>
-            </form> 
-            <div class="row">
-                <div class="col-xl-12">
-                    <!-- <div class="card">
-                        <div class="card-body"> -->
-                        <div class="table-responsive-sm">
-                                <table class="table table-striped table-centered mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th>S.No</th>
-                                            <th>Category</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>HTML</td>
-                                                <td class="table-action">
-                                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
-                                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>CSS</td>
-                                            <td class="table-action">
-                                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
-                                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>javascript</td>
-                                            <td class="table-action">
-                                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
-                                                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        <!-- </div> 
-                    </div> -->
-                </div>
-            </div>  
         </div>
+        <?php include 'includes/footer.php'; ?>
     </div>
-    <?php include 'includes/footer.php'; ?>
 
     <!-- file preview template -->
             <div class="d-none" id="uploadPreviewTemplate">
