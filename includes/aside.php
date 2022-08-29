@@ -16,9 +16,6 @@
                         <a href="new-topic.php">Topic Form</a>
                     </li>
                     <li>
-                        <a href="another-form-type.php">Another Topic</a>
-                    </li>
-                    <li>
                         <a href="add-category.php">Category Form</a>
                     </li>
                 </ul>
