@@ -99,3 +99,19 @@ table th{
     color: #FFF;
     font-size: 22px;
 }
+
+
+
+/* lesson section css */
+
+/* lessions-list css */
+.btn-search-bg{
+    background: #632a7d;
+    color: #FFF;
+}
+.btn-search-bg:hover{
+    color: #FFF;
+}
+label,h4,.dragula-bg,.search-icon-bg{
+    color: #632a7d;
+}
