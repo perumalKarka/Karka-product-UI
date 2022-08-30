@@ -32,12 +32,12 @@
                             <div class="page-title-box">
                                 <div class="page-title-right topic-path">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Karka</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Topic</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Admin</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Topics</a></li>
                                         <li class="breadcrumb-item active">Add Category</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title topic-head">Category list</h4>
+                                <h4 class="page-title topic-head">Master list</h4>
                             </div>
                         </div>
                     </div>
@@ -47,18 +47,26 @@
                                 <div class="card">
                                     <div class="card-body">        
                                         <div class="row">
-                                            <div class="col-md-10">
+                                            <div class="col-md-6">
                                                 <div class="form-group mb-3">
-                                                    <label for="example-palaceholder">Category</label>
-                                                    <input type="text" id="example-palaceholder" class="form-control" placeholder="Enter new category">
+                                                    <label for="example-palaceholder">Type</label>
+                                                    <select class="form-control" id="example-select">
+                                                       <option>Select</option>
+                                                       <option>Category</option>
+                                                       <option>Tag content</option>
+                                                    </select>
                                                 </div>
                                             </div>
-                                            <div class="col-md-2">
-                                                <div>
-                                                <button type="button" class="btn mt-4 add-category-btn btn-bg-color">Add</button>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-3">
+                                                    <label for="example-palaceholder">Title</label>
+                                                    <input type="text" id="example-palaceholder" class="form-control" placeholder="Enter new content">
                                                 </div>
                                             </div>
                                         </div> 
+                                        <div class="modal-footer model-footer-view">
+                                            <button type="button" class="btn mt-2 btn-bg-color">Add</button>
+                                        </div>
                                     </div>
                                 </div>   
                             </div>
@@ -73,13 +81,15 @@
                                             <thead>
                                                 <tr>
                                                     <th>S.No</th>
-                                                    <th>Category</th>
+                                                    <th>Type</th>
+                                                    <th>Text</th>
                                                     <th>Action</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>1</td>
+                                                    <td>Category</td>
                                                     <td>HTML</td>
                                                         <td class="table-action">
                                                         <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
@@ -88,15 +98,8 @@
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
-                                                    <td>CSS</td>
-                                                    <td class="table-action">
-                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
-                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>javascript</td>
+                                                    <td>Tag-content</td>
+                                                    <td>inline-css</td>
                                                     <td class="table-action">
                                                         <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
                                                         <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
