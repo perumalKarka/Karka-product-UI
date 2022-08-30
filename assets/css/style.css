@@ -41,6 +41,7 @@ aside .mt-5{
 } 
 .model-footer-view{
     justify-content: center !important;
+    border-top: none !important;
 }
 .content-page-overview{
     padding:  5px 35px !important;
@@ -84,8 +85,8 @@ aside ul li .active{
 } 
 
 .btn-bg-color{
-    background-color: #243871;
-    padding: 10px 30px;
+    background-color: #632a7d;
+    padding: 5px 30px;
     color: #FFF;
     font-size: 18px;
 }
@@ -95,9 +96,6 @@ aside ul li .active{
 table th{
     color: #243871;
     font-size: 15px;
-}
-tbody tr td{
-    font-weight: 800 !important;
 }
 .add-category-btn{
     background-color: #632a7d;
