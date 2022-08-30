@@ -33,8 +33,8 @@
                                 <div class="page-title-right topic-path">
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="javascript: void(0);">Admin</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Topics</a></li>
-                                        <li class="breadcrumb-item active">Add Category</li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Topics library</a></li>
+                                        <li class="breadcrumb-item active">Master list</li>
                                     </ol>
                                 </div>
                                 <h4 class="page-title topic-head">Master list</h4>
