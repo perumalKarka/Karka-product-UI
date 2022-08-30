@@ -5,7 +5,7 @@
             <li class="side-nav-item">
                 <a href="javascript: void(0);" class="side-nav-link">
                     <i class="dripicons-browser"></i>
-                    <span>Library Topic </span>
+                    <span>Topics library</span>
                     <span class="menu-arrow"></span>
                 </a>
                 <ul class="side-nav-second-level aside-bg-color" aria-expanded="false">
@@ -17,6 +17,20 @@
                     </li>
                     <li>
                         <a href="add-category.php">Category Form</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="metismenu side-nav side-nav-light aside-bg-color">
+            <li class="side-nav-item">
+                <a href="javascript: void(0);" class="side-nav-link">
+                    <i class="dripicons-copy"></i>
+                    <span>Lessons library</span>
+                    <span class="menu-arrow"></span>
+                </a>
+                <ul class="side-nav-second-level aside-bg-color" aria-expanded="false">
+                    <li>
+                        <a href="lessons-list.php">Lessons list</a>
                     </li>
                 </ul>
             </li>
