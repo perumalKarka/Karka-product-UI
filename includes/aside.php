@@ -1,32 +1,41 @@
-    <!-- ========== Left Sidebar Start ========== -->
-    <aside>
-        <div class="left-side-menu left-side-menu-light mt-5 left-aside-width">
-            <div class="slimscroll-menu slimscroll-height-size" id="left-side-menu-container">
-                <ul class="metismenu side-nav side-nav-light aside-bg-color">
-                    <li class="side-nav-item">
-                        <a href="javascript: void(0);" class="side-nav-link">
-                            <i class="dripicons-browser"></i>
-                            <span> Topic </span>
-                            <span class="menu-arrow"></span>
-                        </a>
-                        <ul class="side-nav-second-level aside-bg-color" aria-expanded="false">
-                            <li>
-                                <a href="view-table.php">Topic Table</a>
-                            </li>
-                            <li>
-                                <a href="new-topic.php">Add Topic</a>
-                            </li>
-                            <li>
-                                <a href="another-form-type.php">Another Topic</a>
-                            </li>
-                            <li>
-                                <a href="add-category.php">Add Category</a>
-                            </li>
-                        </ul>
+<!-- ========== Left Sidebar Start ========== -->
+<aside class="left-side-menu mt-5 left-aside-bg">
+    <div class="slimscroll-menu slimscroll-height-size" id="left-side-menu-container">
+        <ul class="metismenu side-nav side-nav-light aside-bg-color">
+            <li class="side-nav-item">
+                <a href="javascript: void(0);" class="side-nav-link">
+                    <i class="dripicons-browser"></i>
+                    <span>Topics library</span>
+                    <span class="menu-arrow"></span>
+                </a>
+                <ul class="side-nav-second-level aside-bg-color" aria-expanded="false">
+                    <li>
+                        <a href="view-table.php">Topic Table</a>
+                    </li>
+                    <li>
+                        <a href="new-topic.php">Topic Form</a>
+                    </li>
+                    <li>
+                        <a href="add-category.php">Category Form</a>
                     </li>
                 </ul>
-            </div>
-        </div>  
+            </li>
+        </ul>
+        <ul class="metismenu side-nav side-nav-light aside-bg-color">
+            <li class="side-nav-item">
+                <a href="javascript: void(0);" class="side-nav-link">
+                    <i class="dripicons-copy"></i>
+                    <span>Lessons library</span>
+                    <span class="menu-arrow"></span>
+                </a>
+                <ul class="side-nav-second-level aside-bg-color" aria-expanded="false">
+                    <li>
+                        <a href="lessons-list.php">Lessons list</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </aside>
 
 

@@ -21,37 +21,36 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-    <?php include 'includes/nav.php'; ?>
-    <?php include 'includes/aside.php'; ?>
-
-    <div class="content-page content-page-overview">
-        <div class="container-fluid container-fluid-width">
-            <div class="row">
-                <div class="col-12">
-                    <div class="page-title-box">
-                        <div class="page-title-right topic-path">
-                            <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Karka</a></li>
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Topic</a></li>
-                                <li class="breadcrumb-item active">Topic Table</li>
-                            </ol>
+    <div class="wrapper">
+        <?php include 'includes/nav.php'; ?>
+        <?php include 'includes/aside.php'; ?>
+        <div class="content-page">
+            <div class="content pt-5">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right topic-path">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Karka</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Topic</a></li>
+                                        <li class="breadcrumb-item active">Topic Table</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title topic-head">Topic Table</h4>
+                            </div>
                         </div>
-                        <h4 class="page-title topic-head">Topic Table</h4>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <!-- <div class="card">
-                        <div class="card-body"> -->
-                        <div class="table-responsive-sm">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="table-responsive-sm">
                                 <table class="table table-striped table-centered mb-0">
                                     <thead>
                                         <tr>
                                             <th>Title</th>
                                             <th>Tags content</th>
                                             <th>Text content</th>
+                                            <th>Category</th>
                                             <th>File</th>
                                             <th>Video and Web link</th>
                                             <th>Action</th>
@@ -64,6 +63,7 @@
                                             </td>
                                             <td>AC336 508 2157</td>
                                             <td>July 24, 1950</td>
+                                            <td>HTML</td>
                                             <td>AC336 508 2157</td>
                                             <td>July 24, 1950</td>
                                             <td class="table-action">
@@ -77,6 +77,7 @@
                                             </td>
                                             <td>SB646 473 2057</td>
                                             <td>January 25, 1959</td>
+                                            <td>Css</td>
                                             <td>AC336 508 2157</td>
                                             <td>July 24, 1950</td>
                                             <td class="table-action">
@@ -90,6 +91,7 @@
                                             </td>
                                             <td>DL281 308 0793</td>
                                             <td>September 1, 1939</td>
+                                            <td>Js</td>
                                             <td>AC336 508 2157</td>
                                             <td>July 24, 1950</td>
                                             <td class="table-action">
@@ -103,6 +105,7 @@
                                             </td>
                                             <td>CA269 714 6825</td>
                                             <td>February 5, 1994</td>
+                                            <td>React</td>
                                             <td>AC336 508 2157</td>
                                             <td>July 24, 1950</td>
                                             <td class="table-action">
@@ -113,13 +116,13 @@
                                     </tbody>
                                 </table>
                             </div>
-                        <!-- </div> 
-                    </div> -->
+                        </div>
+                    </div>                 
                 </div>
-            </div>                 
+            </div>
         </div>
+        <?php include 'includes/footer.php' ?>
     </div>
-
 </body>
      <!-- App js -->
      <script src="assets/js/app.min.js"></script>
