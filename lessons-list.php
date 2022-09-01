@@ -45,6 +45,27 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
+                                        <form action="/" method="post" class="dz-clickable" id="addlesson"> 
+                                            <div class="row mt-4">
+                                                <div class="col-md-6">
+                                                    <div class="form-group mb-3">
+                                                        <label for="example-palaceholder">Lesson title</label>
+                                                        <input type="text" id="example-palaceholder" class="form-control" placeholder="Enter Title">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="example-palaceholder">Description</label>
+                                                    <textarea class="form-control" id="example-textarea"></textarea>    
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="modal-footer model-footer-view">
+                                           <button type="button" class="btn my-2 btn-bg-color">Add</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="app-search">
@@ -82,10 +103,6 @@
                                                 </select>
                                             </div> 
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-body">
                                         <div class="row" data-plugin="dragula" data-containers="[&quot;handle-dragula-left&quot;, &quot;handle-dragula-right&quot;]" data-handleclass="dragula-handle">
                                             <div class="col-md-6">
                                                 <div class="bg-dragula p-2 p-lg-4">
