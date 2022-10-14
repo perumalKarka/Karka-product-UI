@@ -109,6 +109,7 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <label for="example-select">File upload</label>
+                                                <button type="button" class="btn btn-bg-color pt-0 pb-0 pr-2 pl-2 float-right">Add<i class="mdi mdi-plus"></i></button>
                                                     <div class="dropzone">
                                                     <div class="fallback">
                                                         <input name="file" type="file" />
@@ -141,6 +142,7 @@
                                             <div class="col-12">
                                                 <div class="form-group mb-3">
                                                     <label for="example-palaceholder">Link</label>
+                                                    <button type="button" class="btn btn-bg-color pt-0 pb-0 pr-2 pl-2 float-right">Add<i class="mdi mdi-plus"></i></button>
                                                     <input type="text" id="example-palaceholder" class="form-control" placeholder="Enter link">
                                                 </div>
                                             </div>                                    
@@ -155,15 +157,72 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="card" id="add-link">
+                        <div class="card-body"> 
+                            <div class="row m-0">
+                                <div class="col-xl-12">
+                                    <div class="table-responsive-sm">
+                                        <table class="table table-striped table-centered mb-0 table-bordered text-center">
+                                            <thead>
+                                                <tr>
+                                                    <th>No</th>
+                                                    <th>Type</th>
+                                                    <th>Content</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="table-user"><b>1</b></td>
+                                                    <td>link</td>
+                                                    <td>html topic</td>
+                                                    <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                <td class="table-user">
+                                                       2
+                                                    </td>
+                                                    <td>link</td>
+                                                    <td>Css topic</td>
+                                                    <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-user">3</td>
+                                                    <td>link</td>
+                                                    <td>Javascript topic</td>
+                                                    <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-user">4</td>
+                                                    <td>link</td>
+                                                    <td>Java topic</td>
+                                                    <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
-                                </div>  
-                            </div>
+                                </div>
+                            </div> 
                         </div>
                     </form> 
-                    <div class="modal-footer model-footer-view">
+                    
+                   
+                </div>
+                <div class="modal-footer model-footer-view">
                         <button type="button" class="btn my-2 btn-bg-color">Add</button>
                     </div>
-                </div>
             </div>
         </div>
         <?php include 'includes/footer.php'; ?> 
